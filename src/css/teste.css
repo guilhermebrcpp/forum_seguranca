@@ -1,0 +1,12 @@
+.direita{
+    display: block;
+    float: right;
+    /*padding-top: 0.6em;*/
+    padding: 0.8em;
+    margin: 0px;
+}
+
+.direita:hover{
+    color:white;
+    background-color: black;
+}

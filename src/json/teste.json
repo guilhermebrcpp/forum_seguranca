@@ -1,6 +1,6 @@
 {
     "questionario 1":{
-        "questoes": ["nego 1", "nego 2", "nego 3", "nego 4"],
+        "questoes": ["pergunta 1", "pergunta 2", "pergunta 3", "pergunta 4"],
         "alternativas": [
             [
                 "alt 1",

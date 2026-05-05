@@ -1,0 +1,16 @@
+{
+    "noticias":[
+        {
+            "1": {
+                "thumb": "png",
+                "titulo": "titulo",
+                "sinopse": "sinopse"
+            },
+            "2": {
+                "thumb": "png",
+                "titulo": "titulo",
+                "sinopse": "sinopse"
+            }
+        }
+    ]
+}

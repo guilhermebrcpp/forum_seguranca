@@ -7,7 +7,7 @@ import Noticia from "../components/Noticia";
 
 function Profile(){
     return (
-    <div style={{backgroundColor:"#C2E6E7"}}>
+    <div style={{backgroundColor:"#98a9c6"}}>
 
         <Header></Header>
 
@@ -15,19 +15,15 @@ function Profile(){
 
         <hr></hr>
 
-        <h1 className="text-center" style={{fontSize: "10em"}}>CKMT Security</h1>
+        <h1 className="text-center" style={{fontSize: "10em"}}>Perfil do usuário</h1>
 
         <div className="container">
             <h2 className="text-center" style={{fontSize: "2em"}}>
-                Forúm feito para falar sobre o quão importante é a websegurança de sua empresa e quais são os benefícios de focar nisso
-                e de quais formas você pode se prejudicar se você não ligar para a seguraça de seus sistemas e o quanto isso pode ferir
-                todos os seus usuários e tals.
+                Aqui ficaria a área de perfil do usuário, onde teria uma Dashboard para acessar as configurações e as informações de seu perfil, e também acessar o questionário sobre segurança para saber o quão bem sua empresa está indo nesse quesito.
             </h2>
         </div>
-        
-        <hr style={{margin:"20em, 0em"}}></hr>
 
-        <hr></hr>
+        <hr style={{paddingBottom:"100%"}}></hr>
         <Footer></Footer>
     </div>
     );

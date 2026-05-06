@@ -35,44 +35,38 @@ function Quiz(){
     }
 
     return (
-        <div style={{backgroundColor:"#C2E6E7"}}>
-
+        <div style={{backgroundColor:"#98a9c6"}}>
             <Header></Header>
 
-            <Nav></Nav>
-
-            <hr></hr>
-
             <div className="container text-center">
-                <h1 style={{fontSize: "5em"}}>Quiz insano.</h1>
+                <h1 style={{fontSize: "8em"}}>Questionário de segurança.</h1>
                 
-                <div style={{backgroundColor:"#1C82CC"}}>
+                <div style={{backgroundColor:"#3871b2"}}>
                     <h3 style={{textAlign:"left"}}>
                         {questionario["questionario 1"]["questoes"][pergunta_atual]}
                     </h3>
                 </div>
                 <div>
-                    <form className="text-start" style={{backgroundColor:"#1C82CC"}}>
-                        <input type="radio" id="opcao1" name="sla" value={1} onChange={selecionando_opcao}/>
-                        <label htmlFor="opcao1">{questionario["questionario 1"]["alternativas"][pergunta_atual][0]}</label><br/>
+                    <form className="text-center" style={{backgroundColor:"#3871b2"}}>
+                        <div style={{justifyContent:"space-evenly"}}>
+                            <input type="radio" id="opcao1" name="sla" value={1} onChange={selecionando_opcao}/>
+                            <label htmlFor="opcao1">{questionario["questionario 1"]["alternativas"][pergunta_atual][0]}</label>
 
-                        <input type="radio" id="opcao2" name="sla" value={2} onChange={selecionando_opcao}/>
-                        <label htmlFor="opcao2">{questionario["questionario 1"]["alternativas"][pergunta_atual][1]}</label><br/>
+                            <input type="radio" id="opcao2" name="sla" value={2} onChange={selecionando_opcao}/>
+                            <label htmlFor="opcao2">{questionario["questionario 1"]["alternativas"][pergunta_atual][1]}</label>
 
-                        <input type="radio" id="opcao3" name="sla" value={3} onChange={selecionando_opcao}/>
-                        <label htmlFor="opcao3">{questionario["questionario 1"]["alternativas"][pergunta_atual][2]}</label><br/>
+                            <input type="radio" id="opcao3" name="sla" value={3} onChange={selecionando_opcao}/>
+                            <label htmlFor="opcao3">{questionario["questionario 1"]["alternativas"][pergunta_atual][2]}</label>
 
-                        <input type="radio" id="opcao4" name="sla" value={4} onChange={selecionando_opcao}/>
-                        <label htmlFor="opcao4">{questionario["questionario 1"]["alternativas"][pergunta_atual][3]}</label><br/>
-                        <br/>
-                        
+                            <input type="radio" id="opcao4" name="sla" value={4} onChange={selecionando_opcao}/>
+                            <label htmlFor="opcao4">{questionario["questionario 1"]["alternativas"][pergunta_atual][3]}</label>
+                        </div>
                     </form>
-                    <button onClick={proxima_pergunta}>enviar2</button>
+                    <button onClick={proxima_pergunta}>Responder</button>
                 </div>
                 <br></br>
                 <br></br>
                 <br></br>
-                <button onClick={pressed}>oiiiiiii</button>
             </div>
             <Footer></Footer>
         </div>
